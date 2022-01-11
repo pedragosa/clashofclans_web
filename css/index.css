@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main > div {
+
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+header {
+    background-color: rgb(8, 156, 65); 
+    margin-bottom: 0%;
+    border: solid 5px #0096ff;
+    color: whitesmoke;
+    border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
+    box-shadow: -8px 8px 20px #000000;
+    border-radius:0% 0% 0% 0%;
+    padding: 0%;
+    
+       
+
+}
+
+.login{
+text-align: right;
+margin-top: -5%;
+margin-right: 1%;
+color: black;
+margin-bottom: 1%;
+
+
+}
+#fotoportada {
+
+    background:url(../img/clans.png);
+    width: 12%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    }
+
+.imatgeclash {
+background:url(../img/logo-1.png);
+width: 92%;
+height: 40vh;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+margin-left: 4%;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: url('../img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    background-attachment: fixed;
+}
+
+nav a{  
+    text-decoration: none;
+    color: #000000;
+    border: solid 1px #000;
+    border-radius: 2px;
+    box-shadow: 1px 2px 0px;
+    padding: 5px;
+    
+    }
+
+    nav a:link{
+    color: #ffffff;
+    align-content: center;
+    
+    }
+    nav a:visited {
+        color: #ffffff;
+        align-content: center;
+        
+    }
+
+    #flota a:hover {
+        border: solid 3px black;
+        background: dodgerblue;
+        box-shadow: 0px 0px 3px black;
+        border-radius: 10px;
+        width: 25%;
+        padding: 13px;
+        text-align: center;
+        background-image: linear-gradient(180deg,rgb(37, 223, 99),#2baa51);
+        
+    
+    }
+    #flota a {
+        background-image: linear-gradient(180deg,rgb(0, 174, 255),#0364a5);
+        border: solid 2px black;
+        border-radius: 10px;
+        width: 25%;
+        height: 50px;
+        margin-top: 1%;
+        padding: 10px;
+        box-shadow: 0px 0px 3px black;
+        
+    }
+
+    main{
+        margin-top: -4%;
+        margin-bottom: 30%;
+        border-radius:0% 0% 0% 0%;
+
+    }
+
+
+*.contenidor {
+    float: left;
+    margin-top: 5%;
+    border: solid 10px greenyellow;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.685);
+    margin-left:7%;
+    border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
+    box-shadow: 1px 1px 30px #000000;
+    border-radius:5% 5% 5% 5%;
+    margin-bottom: -1%;
+    padding: 1%;
+    
+}
+*.contenidor2 {
+    float: left;
+    margin-top: 5%;
+    border: solid 10px greenyellow;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.685);
+    margin-left:7%;
+    border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
+    box-shadow: 1px 1px 30px #000000;
+    border-radius:5% 5% 5% 5%;
+    padding: 1%;
+    
+}
+.barra {
+    width: 70%;
+    background-color: rgb(228, 253, 1);
+    margin-top: 1%;
+    box-shadow: -8px 8px 20px #000000;
+    border-radius:10% 10% 10% 10%;
+    padding: 1%;
+    background-position: center center;
+    margin-left: 13%;
+    margin-bottom: 3%;
+    background-image: linear-gradient(180deg,rgb(255, 238, 0),#d48404);
+    }
+
+#escalat div {
+    transition: all 1s;
+}
+
+#escalat div:nth-child(1):hover {
+    transform: scale(1.2,1.2);
+}
+#escalat div:nth-child(2):hover {
+    transform: scale(1.2,1.2);
+}
+#escalat div:nth-child(3):hover {
+    transform: scale(1.2,1.2);
+}
+#escalat div:nth-child(4):hover {
+    transform: scale(1.2,1.2);
+}
+
+footer {
+    border: solid 5px #0096ff;
+    background-color: rgb(5, 5, 5);
+    margin-top: 50%;
+    color: whitesmoke;
+    border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
+    box-shadow: -8px 8px 20px #000000;
+    border-radius:0% 0% 0% 0%;
+    padding: 2%;
+}
+.contenidor3 {
+    margin-top: -10%;
+    float: left;
+    padding: 10px;
+    width: 100%;
+    min-height: 40vh;
+
+}
+.miniContenidor3 {
+    position: relative;
+    padding: 10px;
+    float: left;
+    border: solid 1px black;
+    background: dodgerblue;
+    color: white;
+    width: 1%;
+    height: 2vh;
+    text-align: center;
+
+}
+
+.backPosAnimation3 {
+    animation-name: fonsPosAnimacio3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes fonsPosAnimacio3 {
+    0% {background: red; top: 1vh; left: 20vh; border-radius: 100%;}
+    25% {background: yellow; top: 1vh; left: 20vh; border-radius: 100%;}
+    50% {background: green; top: 15vh; left: 20vh; border-radius: 100%;}
+    75% {background: blue; top: 15vh; left: 20vh; border-radius: 100%;}
+    100% {background: red; top: 15vh; left: 20vh; border-radius: 100%;}
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and (min-width: 600px) {
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+  }
+@media only screen and (min-width: 992px) {
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+  }
+
+
