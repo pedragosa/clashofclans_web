@@ -11,8 +11,9 @@ main > div {
     
 }
 header {
+    width: 100%;
     background-color: rgb(8, 156, 65); 
-    margin-bottom: 0%;
+    margin-top: 0%;
     border: solid 5px #0096ff;
     color: whitesmoke;
     border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
@@ -110,6 +111,7 @@ nav a{
     }
 
     main{
+        float:initial;
         margin-top: -4%;
         margin-bottom: 30%;
         border-radius:0% 0% 0% 0%;
@@ -136,6 +138,7 @@ nav a{
     margin-top: 5%;
     border: solid 10px greenyellow;
     width: 25%;
+    margin-bottom: 15%;
     background-color: rgba(255, 255, 255, 0.685);
     margin-left:7%;
     border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
@@ -162,27 +165,29 @@ nav a{
 }
 
 #escalat div:nth-child(1):hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.1,1.1);
 }
 #escalat div:nth-child(2):hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.1,1.1);
 }
 #escalat div:nth-child(3):hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.1,1.1);
 }
 #escalat div:nth-child(4):hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.1,1.1);
 }
 
 footer {
+
+    float: left;
     border: solid 5px #0096ff;
     background-color: rgb(5, 5, 5);
-    margin-top: 50%;
+    width: 100%;
     color: whitesmoke;
     border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
     box-shadow: -8px 8px 20px #000000;
     border-radius:0% 0% 0% 0%;
-    padding: 2%;
+    padding: 3%;
 }
 .contenidor3 {
     margin-top: -10%;
@@ -206,6 +211,7 @@ footer {
 }
 
 .backPosAnimation3 {
+    background-size: contain;
     animation-name: fonsPosAnimacio3;
     animation-duration: 5s;
     animation-iteration-count: infinite;
