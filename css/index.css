@@ -20,6 +20,10 @@ header {
     box-shadow: -8px 8px 20px #000000;
     border-radius:0% 0% 0% 0%;
     padding: 0%;
+    animation-name: fonsPosAnimacio3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
        
 
@@ -210,19 +214,9 @@ footer {
 
 }
 
-.backPosAnimation3 {
-    background-size: contain;
-    animation-name: fonsPosAnimacio3;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
 @keyframes fonsPosAnimacio3 {
-    0% {background: red; top: 1vh; left: 70vh; border-radius: 100%;}
-    25% {background: yellow; top: 1vh; left: 125vh; border-radius: 100%;}
-    50% {background: green; top: 1vh; left: 70vh; border-radius: 100%;}
-    75% {background: blue; top: 1vh; left: 125vh; border-radius: 100%;}
-    100% {background: red; top: 1vh; left: 70vh; border-radius: 100%;}
+    50% {background: rgb(29, 211, 114);}
+    100% {background: rgb(211, 241, 78);}
 }
 
 .col-1 {width: 8.33%;}
