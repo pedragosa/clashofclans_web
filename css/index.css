@@ -213,16 +213,16 @@ footer {
 .backPosAnimation3 {
     background-size: contain;
     animation-name: fonsPosAnimacio3;
-    animation-duration: 5s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 @keyframes fonsPosAnimacio3 {
-    0% {background: red; top: 1vh; left: 20vh; border-radius: 100%;}
-    25% {background: yellow; top: 1vh; left: 20vh; border-radius: 100%;}
-    50% {background: green; top: 15vh; left: 20vh; border-radius: 100%;}
-    75% {background: blue; top: 15vh; left: 20vh; border-radius: 100%;}
-    100% {background: red; top: 15vh; left: 20vh; border-radius: 100%;}
+    0% {background: red; top: 1vh; left: 70vh; border-radius: 100%;}
+    25% {background: yellow; top: 1vh; left: 125vh; border-radius: 100%;}
+    50% {background: green; top: 1vh; left: 70vh; border-radius: 100%;}
+    75% {background: blue; top: 1vh; left: 125vh; border-radius: 100%;}
+    100% {background: red; top: 1vh; left: 70vh; border-radius: 100%;}
 }
 
 .col-1 {width: 8.33%;}
@@ -275,5 +275,3 @@ footer {
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}
   }
-
-
