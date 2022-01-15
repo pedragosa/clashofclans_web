@@ -124,12 +124,9 @@ nav a{
 
 
 *.contenidor {
-    float: left;
     margin-top: 5%;
     border: solid 10px greenyellow;
-    width: 25%;
     background-color: rgba(255, 255, 255, 0.685);
-    margin-left:7%;
     border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
     box-shadow: 1px 1px 30px #000000;
     border-radius:5% 5% 5% 5%;
@@ -138,13 +135,11 @@ nav a{
     
 }
 *.contenidor2 {
-    float: left;
     margin-top: 5%;
     border: solid 10px greenyellow;
-    width: 25%;
+
     margin-bottom: 15%;
     background-color: rgba(255, 255, 255, 0.685);
-    margin-left:7%;
     border-color: rgb(29, 211, 114) rgb(8, 156, 65) rgb(29, 211, 114) rgb(8, 156, 65);
     box-shadow: 1px 1px 30px #000000;
     border-radius:5% 5% 5% 5%;
